@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		347543A51DFDB67100BE7282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347543A41DFDB67100BE7282 /* AppDelegate.swift */; };
+		347543A71DFDB67100BE7282 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347543A61DFDB67100BE7282 /* ViewController.swift */; };
+		347543AA1DFDB67100BE7282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347543A81DFDB67100BE7282 /* Main.storyboard */; };
+		347543AC1DFDB67100BE7282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347543AB1DFDB67100BE7282 /* Assets.xcassets */; };
+		347543AF1DFDB67100BE7282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347543AD1DFDB67100BE7282 /* LaunchScreen.storyboard */; };
+		347543BA1DFDB67100BE7282 /* Yahoo_DigestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347543B91DFDB67100BE7282 /* Yahoo_DigestTests.swift */; };
+		347543C51DFDB67100BE7282 /* Yahoo_DigestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347543C41DFDB67100BE7282 /* Yahoo_DigestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		347543B61DFDB67100BE7282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 347543991DFDB67100BE7282 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 347543A01DFDB67100BE7282;
+			remoteInfo = "Yahoo Digest";
+		};
+		347543C11DFDB67100BE7282 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 347543991DFDB67100BE7282 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 347543A01DFDB67100BE7282;
+			remoteInfo = "Yahoo Digest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		347543A11DFDB67100BE7282 /* Yahoo Digest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yahoo Digest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		347543A41DFDB67100BE7282 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		347543A61DFDB67100BE7282 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		347543A91DFDB67100BE7282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		347543AB1DFDB67100BE7282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		347543AE1DFDB67100BE7282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		347543B01DFDB67100BE7282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347543B51DFDB67100BE7282 /* Yahoo DigestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yahoo DigestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		347543B91DFDB67100BE7282 /* Yahoo_DigestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yahoo_DigestTests.swift; sourceTree = "<group>"; };
+		347543BB1DFDB67100BE7282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347543C01DFDB67100BE7282 /* Yahoo DigestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yahoo DigestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		347543C41DFDB67100BE7282 /* Yahoo_DigestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yahoo_DigestUITests.swift; sourceTree = "<group>"; };
+		347543C61DFDB67100BE7282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3475439E1DFDB67100BE7282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347543B21DFDB67100BE7282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347543BD1DFDB67100BE7282 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		347543981DFDB67100BE7282 = {
+			isa = PBXGroup;
+			children = (
+				347543A31DFDB67100BE7282 /* Yahoo Digest */,
+				347543B81DFDB67100BE7282 /* Yahoo DigestTests */,
+				347543C31DFDB67100BE7282 /* Yahoo DigestUITests */,
+				347543A21DFDB67100BE7282 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		347543A21DFDB67100BE7282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				347543A11DFDB67100BE7282 /* Yahoo Digest.app */,
+				347543B51DFDB67100BE7282 /* Yahoo DigestTests.xctest */,
+				347543C01DFDB67100BE7282 /* Yahoo DigestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		347543A31DFDB67100BE7282 /* Yahoo Digest */ = {
+			isa = PBXGroup;
+			children = (
+				347543A41DFDB67100BE7282 /* AppDelegate.swift */,
+				347543A61DFDB67100BE7282 /* ViewController.swift */,
+				347543A81DFDB67100BE7282 /* Main.storyboard */,
+				347543AB1DFDB67100BE7282 /* Assets.xcassets */,
+				347543AD1DFDB67100BE7282 /* LaunchScreen.storyboard */,
+				347543B01DFDB67100BE7282 /* Info.plist */,
+			);
+			path = "Yahoo Digest";
+			sourceTree = "<group>";
+		};
+		347543B81DFDB67100BE7282 /* Yahoo DigestTests */ = {
+			isa = PBXGroup;
+			children = (
+				347543B91DFDB67100BE7282 /* Yahoo_DigestTests.swift */,
+				347543BB1DFDB67100BE7282 /* Info.plist */,
+			);
+			path = "Yahoo DigestTests";
+			sourceTree = "<group>";
+		};
+		347543C31DFDB67100BE7282 /* Yahoo DigestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				347543C41DFDB67100BE7282 /* Yahoo_DigestUITests.swift */,
+				347543C61DFDB67100BE7282 /* Info.plist */,
+			);
+			path = "Yahoo DigestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		347543A01DFDB67100BE7282 /* Yahoo Digest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347543C91DFDB67100BE7282 /* Build configuration list for PBXNativeTarget "Yahoo Digest" */;
+			buildPhases = (
+				3475439D1DFDB67100BE7282 /* Sources */,
+				3475439E1DFDB67100BE7282 /* Frameworks */,
+				3475439F1DFDB67100BE7282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yahoo Digest";
+			productName = "Yahoo Digest";
+			productReference = 347543A11DFDB67100BE7282 /* Yahoo Digest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		347543B41DFDB67100BE7282 /* Yahoo DigestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347543CC1DFDB67100BE7282 /* Build configuration list for PBXNativeTarget "Yahoo DigestTests" */;
+			buildPhases = (
+				347543B11DFDB67100BE7282 /* Sources */,
+				347543B21DFDB67100BE7282 /* Frameworks */,
+				347543B31DFDB67100BE7282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				347543B71DFDB67100BE7282 /* PBXTargetDependency */,
+			);
+			name = "Yahoo DigestTests";
+			productName = "Yahoo DigestTests";
+			productReference = 347543B51DFDB67100BE7282 /* Yahoo DigestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		347543BF1DFDB67100BE7282 /* Yahoo DigestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347543CF1DFDB67100BE7282 /* Build configuration list for PBXNativeTarget "Yahoo DigestUITests" */;
+			buildPhases = (
+				347543BC1DFDB67100BE7282 /* Sources */,
+				347543BD1DFDB67100BE7282 /* Frameworks */,
+				347543BE1DFDB67100BE7282 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				347543C21DFDB67100BE7282 /* PBXTargetDependency */,
+			);
+			name = "Yahoo DigestUITests";
+			productName = "Yahoo DigestUITests";
+			productReference = 347543C01DFDB67100BE7282 /* Yahoo DigestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		347543991DFDB67100BE7282 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Shane Doyle";
+				TargetAttributes = {
+					347543A01DFDB67100BE7282 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					347543B41DFDB67100BE7282 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 347543A01DFDB67100BE7282;
+					};
+					347543BF1DFDB67100BE7282 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 347543A01DFDB67100BE7282;
+					};
+				};
+			};
+			buildConfigurationList = 3475439C1DFDB67100BE7282 /* Build configuration list for PBXProject "Yahoo Digest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 347543981DFDB67100BE7282;
+			productRefGroup = 347543A21DFDB67100BE7282 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				347543A01DFDB67100BE7282 /* Yahoo Digest */,
+				347543B41DFDB67100BE7282 /* Yahoo DigestTests */,
+				347543BF1DFDB67100BE7282 /* Yahoo DigestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3475439F1DFDB67100BE7282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347543AF1DFDB67100BE7282 /* LaunchScreen.storyboard in Resources */,
+				347543AC1DFDB67100BE7282 /* Assets.xcassets in Resources */,
+				347543AA1DFDB67100BE7282 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347543B31DFDB67100BE7282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347543BE1DFDB67100BE7282 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3475439D1DFDB67100BE7282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347543A71DFDB67100BE7282 /* ViewController.swift in Sources */,
+				347543A51DFDB67100BE7282 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347543B11DFDB67100BE7282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347543BA1DFDB67100BE7282 /* Yahoo_DigestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		347543BC1DFDB67100BE7282 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347543C51DFDB67100BE7282 /* Yahoo_DigestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		347543B71DFDB67100BE7282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 347543A01DFDB67100BE7282 /* Yahoo Digest */;
+			targetProxy = 347543B61DFDB67100BE7282 /* PBXContainerItemProxy */;
+		};
+		347543C21DFDB67100BE7282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 347543A01DFDB67100BE7282 /* Yahoo Digest */;
+			targetProxy = 347543C11DFDB67100BE7282 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		347543A81DFDB67100BE7282 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				347543A91DFDB67100BE7282 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		347543AD1DFDB67100BE7282 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				347543AE1DFDB67100BE7282 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		347543C71DFDB67100BE7282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		347543C81DFDB67100BE7282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		347543CA1DFDB67100BE7282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Yahoo Digest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.elwexicano.Yahoo-Digest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		347543CB1DFDB67100BE7282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Yahoo Digest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.elwexicano.Yahoo-Digest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		347543CD1DFDB67100BE7282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Yahoo DigestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.elwexicano.Yahoo-DigestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yahoo Digest.app/Yahoo Digest";
+			};
+			name = Debug;
+		};
+		347543CE1DFDB67100BE7282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Yahoo DigestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.elwexicano.Yahoo-DigestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yahoo Digest.app/Yahoo Digest";
+			};
+			name = Release;
+		};
+		347543D01DFDB67100BE7282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Yahoo DigestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.elwexicano.Yahoo-DigestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Yahoo Digest";
+			};
+			name = Debug;
+		};
+		347543D11DFDB67100BE7282 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Yahoo DigestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ie.elwexicano.Yahoo-DigestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Yahoo Digest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3475439C1DFDB67100BE7282 /* Build configuration list for PBXProject "Yahoo Digest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347543C71DFDB67100BE7282 /* Debug */,
+				347543C81DFDB67100BE7282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347543C91DFDB67100BE7282 /* Build configuration list for PBXNativeTarget "Yahoo Digest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347543CA1DFDB67100BE7282 /* Debug */,
+				347543CB1DFDB67100BE7282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		347543CC1DFDB67100BE7282 /* Build configuration list for PBXNativeTarget "Yahoo DigestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347543CD1DFDB67100BE7282 /* Debug */,
+				347543CE1DFDB67100BE7282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		347543CF1DFDB67100BE7282 /* Build configuration list for PBXNativeTarget "Yahoo DigestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347543D01DFDB67100BE7282 /* Debug */,
+				347543D11DFDB67100BE7282 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 347543991DFDB67100BE7282 /* Project object */;
+}
