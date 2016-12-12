@@ -14,6 +14,7 @@
 		347543AF1DFDB67100BE7282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347543AD1DFDB67100BE7282 /* LaunchScreen.storyboard */; };
 		347543BA1DFDB67100BE7282 /* Yahoo_DigestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347543B91DFDB67100BE7282 /* Yahoo_DigestTests.swift */; };
 		347543C51DFDB67100BE7282 /* Yahoo_DigestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347543C41DFDB67100BE7282 /* Yahoo_DigestUITests.swift */; };
+		34D60F5B1DFDB9190088E4B3 /* Clocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 34D60F5A1DFDB9190088E4B3 /* Clocks.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		347543C01DFDB67100BE7282 /* Yahoo DigestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yahoo DigestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		347543C41DFDB67100BE7282 /* Yahoo_DigestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yahoo_DigestUITests.swift; sourceTree = "<group>"; };
 		347543C61DFDB67100BE7282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34D60F5A1DFDB9190088E4B3 /* Clocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clocks.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		347543A31DFDB67100BE7282 /* Yahoo Digest */ = {
 			isa = PBXGroup;
 			children = (
+				34D60F5A1DFDB9190088E4B3 /* Clocks.png */,
 				347543A41DFDB67100BE7282 /* AppDelegate.swift */,
 				347543A61DFDB67100BE7282 /* ViewController.swift */,
 				347543A81DFDB67100BE7282 /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D60F5B1DFDB9190088E4B3 /* Clocks.png in Resources */,
 				347543AF1DFDB67100BE7282 /* LaunchScreen.storyboard in Resources */,
 				347543AC1DFDB67100BE7282 /* Assets.xcassets in Resources */,
 				347543AA1DFDB67100BE7282 /* Main.storyboard in Resources */,
@@ -503,6 +507,7 @@
 				347543CB1DFDB67100BE7282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		347543CC1DFDB67100BE7282 /* Build configuration list for PBXNativeTarget "Yahoo DigestTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				347543CE1DFDB67100BE7282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		347543CF1DFDB67100BE7282 /* Build configuration list for PBXNativeTarget "Yahoo DigestUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				347543D11DFDB67100BE7282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
